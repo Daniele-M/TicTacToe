@@ -280,7 +280,7 @@ def AI_brain(move):
 
     elif len(empty_cells) == 7:                          #Second move after playing the first one
 
-        if "5" in empty_cells:                           #In this case the computer always wins
+        if "5" in empty_cells:                      
 
             if move in cross:
 
@@ -313,7 +313,7 @@ def AI_brain(move):
                 if move == "8" or move == "2":
                     TheBoard[random.choice(["4", "6"])] = OX
                 else:
-                    TheBoard[random.choice(["2", "8"])] = OX        #REMEMBER LEN 5. THE COMPUTER DOES NOT ALWAYS WIN HERE
+                    TheBoard[random.choice(["2", "8"])] = OX        
 
             else:                                                   #Player played cross
                 cross_moves = list(set(empty_cells) & set(cross))
