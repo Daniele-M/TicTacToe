@@ -16,4 +16,5 @@ You will press the number corresponding to the right square in order to make you
 *******************************************************************************************
 
 tictactoe_multiplayer allows you to play with a friend (from the same computer).
+
 tictactoe_sp let's you play versus a computer.
