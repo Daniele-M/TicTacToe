@@ -138,7 +138,13 @@ players = [p1, p2]
 print("Do you want X or O?")
 
 X = input(p1 + ": ")
-O = input(p2 + ": ")
+second_input = True
+while second_input:
+    O = input(p2 + ": ")
+    if O == X:
+        print(f"{O} have already been chosen.")
+    else:
+        second_input = False
 
 score1 = 0
 score2 = 0
